@@ -1,0 +1,15 @@
+build:browser:
+  image: node:8
+  before_script:
+  - npm ci
+  script:
+  - npm run build-browser
+  - mkdir markdown-to-pdf
+  - cp dist/main.js markdown-to-pdf/converter.min.js
+  - sed -e 's/main\.js/converter.min.js/' < dist/index.html >markdown-to-pdf/demo.html
+  - cp LICENSE markdown-to-pdf/
+  - cp README.md markdown-to-pdf/
+  artifacts:
+    name: "markdown-to-pdf-$CI_COMMIT_REF_NAME"
+    paths:
+    - markdown-to-pdf/
