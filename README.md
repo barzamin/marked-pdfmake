@@ -1,4 +1,4 @@
-# marked-renderer-pdf
+# marked-pdfjs
 
 Converts Markdown to PDF.
 
@@ -9,14 +9,14 @@ This package contains a custom renderer for [marked](https://www.npmjs.com/packa
 # Installation
 
 ```bash
-npm i -P marked-renderer-pdf
+npm i -P marked-pdfjs
 ```
 
 # Usage
 
 ```javascript
 const File = require( "fs" );
-const Converter = require( "marked-renderer-pdf" );
+const Converter = require( "marked-pdfjs" );
 
 const md = `
 This is _some_ **simple _test_** text.

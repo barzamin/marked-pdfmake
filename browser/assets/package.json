@@ -1,16 +1,16 @@
 {
-	"name": "marked-renderer-pdf-browser",
+	"name": "marked-pdfjs-browser",
 	"main": "main.js",
-	"description": "build of marked-renderer-pdf for use in browsers",
+	"description": "build of marked-pdfjs for use in browsers",
 	"version": "%%version%%",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/cepharum/marked-renderer-pdf.git"
+		"url": "git+https://github.com/drewlab/marked-pdfjs.git"
 	},
-	"author": "Thomas Urban",
+	"author": "Drew O. Letcher",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/cepharum/marked-renderer-pdf/issues"
+		"url": "https://github.com/drewlab/marked-pdfjs/issues"
 	},
-	"homepage": "https://github.com/cepharum/marked-renderer-pdf#readme"
+	"homepage": "https://github.com/drewlab/marked-pdfjs#readme"
 }

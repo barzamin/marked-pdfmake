@@ -1,5 +1,5 @@
 {
-  "name": "marked-renderer-pdf",
+  "name": "marked-pdfjs",
   "version": "0.0.6",
   "description": "an extensible PDF-renderer for marked markdown parser",
   "main": "lib/index.js",
@@ -10,18 +10,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cepharum/marked-renderer-pdf.git"
+    "url": "git+https://github.com/drewlab/marked-pdfjs.git"
   },
-  "author": "Thomas Urban",
+  "author": "Drew O. Letcher",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cepharum/marked-renderer-pdf/issues"
+    "url": "https://github.com/drewlab/marked-pdfjs/issues"
   },
-  "homepage": "https://github.com/cepharum/marked-renderer-pdf#readme",
+  "homepage": "https://github.com/drewlab/marked-pdfjs#readme",
+  "dependencies": {
+    "marked": "^0.5.0",
+    "pdfjs": "^2.0.0"
+  },
   "devDependencies": {
     "copy-webpack-plugin": "^4.6.0",
     "eslint": "^5.4.0",
-    "eslint-config-cepharum": "^1.0.7",
     "eslint-plugin-promise": "^4.0.0",
     "html-webpack-plugin": "^3.2.0",
     "mocha": "^5.2.0",
@@ -31,13 +34,10 @@
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.9"
   },
-  "dependencies": {
-    "marked": "^0.5.0",
-    "pdfjs": "^2.0.0"
-  },
   "keywords": [
     "markdown",
-    "pdf",
-    "converter"
+    "pdfjs",
+    "md",
+    "pdf"
   ]
 }

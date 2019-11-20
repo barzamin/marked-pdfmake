@@ -1,8 +1,8 @@
-# marked-renderer-pdf-browser
+# marked-pdfjs-browser
 
-A prepared build of [marked-renderer-pdf](https://www.npmjs.com/package/marked-renderer-pdf) for generating PDFs from markdown in browser.
+A prepared build of [marked-pdfjs](https://www.npmjs.com/package/marked-pdfjs) for generating PDFs from markdown in browser.
 
-This package is generated as part of CI/CD of [marked-renderer-pdf](https://www.npmjs.com/package/marked-renderer-pdf).
+This package is generated as part of CI/CD of [marked-pdfjs](https://www.npmjs.com/package/marked-pdfjs).
 
 ## License
 
@@ -11,7 +11,7 @@ MIT
 ## Installation 
 
 ```bash
-npm install marked-renderer-pdf-browser
+npm install marked-pdfjs-browser
 ```
 
 ## Usage
@@ -19,13 +19,13 @@ npm install marked-renderer-pdf-browser
 When using WebPack the converter may be imported using
 
 ```javascript
-import MarkdownToPDF from "marked-renderer-pdf-browser";
+import MarkdownToPDF from "marked-pdfjs-browser";
 ```
 
 In addition the script may be injected using `<script>`-tag:
 
 ```html
-<script type="text/javascript" src="/url/to/project/node_modules/marked-renderer-pdf-browser/main.js"></script>
+<script type="text/javascript" src="/url/to/project/node_modules/marked-pdfjs-browser/main.js"></script>
 ```
 
 This will expose the converter in global variable `MarkdownToPDF`.
