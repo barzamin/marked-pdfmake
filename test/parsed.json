@@ -1,0 +1,44 @@
+{
+  "content": [
+    {
+      "text": "heading 1",
+      "style": "header1"
+    },
+    {
+      "text": [
+        "This is some text.",
+        "This is some more ",
+        {
+          "text": "bold",
+          "bold": true
+        },
+        " text."
+      ]
+    },
+    " ",
+    {
+      "table": {
+        "body": [
+          [
+            {
+              "stack": []
+            }
+          ]
+        ],
+        "widths": [
+          "*"
+        ]
+      },
+      "layout": "separator",
+      "borders": [
+        0,
+        2,
+        0,
+        0
+      ],
+      "margin": 2
+    },
+    "<ul>\n<li>\"item 1\",</li>\n<li>\"item 2\", </li>\n</ul>\n"
+  ],
+  "styles": {}
+}
