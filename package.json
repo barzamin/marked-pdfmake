@@ -2,7 +2,7 @@
   "name": "marked-pdf",
   "version": "1.0.0",
   "description": "an extensible PDF-renderer for marked markdown parser",
-  "main": "./lib/index.js",
+  "main": "./index.js",
   "scripts": {
     "dev-browser": "webpack-dev-server --env.NODE_ENV=web --config=browser.webpack.config.js --open",
     "build-browser": "webpack --env.NODE_ENV=web --config=browser.webpack.config.js",

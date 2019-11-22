@@ -8,6 +8,7 @@ fs.writeFileSync('test/options.json', JSON.stringify(options,null,"  "), 'utf8')
 
 const tokens = marked.lexer( md );
 fs.writeFileSync('test/tokens.json', JSON.stringify(tokens,null,"  "), 'utf8');
+fs.writeFileSync('test/links.json', JSON.stringify(tokens.links, null, "  "), 'utf8');
 console.log(tokens.length);
 
 const parsed = marked.Parser.parse( tokens );
