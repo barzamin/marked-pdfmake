@@ -1,5 +1,5 @@
 {
-  "name": "marked-pdf",
+  "name": "marked-pdfmake",
   "version": "1.0.0",
   "description": "an extensible PDF-renderer for marked markdown parser",
   "main": "./index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/drewlab/marked-pdfjs.git"
+    "url": "git+https://github.com/drewlab/marked-pdfmake.git"
   },
   "author": "Drew O. Letcher",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/drewlab/marked-pdfjs/issues"
+    "url": "https://github.com/drewlab/marked-pdfmake/issues"
   },
-  "homepage": "https://github.com/drewlab/marked-pdfjs#readme",
+  "homepage": "https://github.com/drewlab/marked-pdfmake#readme",
   "dependencies": {
     "cssjson": "^2.1.3",
     "marked": "^0.7.0",

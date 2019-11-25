@@ -7,11 +7,20 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "getnodes",
+      "name": "parser test",
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}\\test\\getnodes.js"
+      "program": "${workspaceFolder}\\test\\parsertest.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "create pdf",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}\\test\\createpdf.js"
     }
   ]
 }
