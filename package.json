@@ -36,11 +36,11 @@
     "webpack-dev-server": "^3.10.1"
   },
   "keywords": [
-    "md",
     "markdown",
     "marked",
+    "md",
     "pdf",
-    "pdfmake",
-    "pdfkit"
+    "pdfkit",
+    "pdfmake"
   ]
 }

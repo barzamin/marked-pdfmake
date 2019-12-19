@@ -2,4 +2,4 @@
 // Copyright (C) 2018 Drew O. Letcher
 // License: MIT
 
-module.exports = require('./lib/marked-pdfmake');
+module.exports = require('./lib/marked-pdf');
