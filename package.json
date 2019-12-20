@@ -1,7 +1,7 @@
 {
-  "name": "marked-pdfmake",
-  "version": "1.0.0",
-  "description": "an extensible PDF-renderer for marked markdown parser",
+  "name": "marked-pdf",
+  "version": "0.1.0",
+  "description": "A PDF renderer extension for the marked library.",
   "main": "./index.js",
   "scripts": {
     "dev-browser": "webpack-dev-server --env.NODE_ENV=web --config=browser.webpack.config.js --open",
