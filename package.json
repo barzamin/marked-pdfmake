@@ -1,5 +1,5 @@
 {
-  "name": "marked-pdf",
+  "name": "marked-pdfmake",
   "version": "0.1.0",
   "description": "A PDF renderer extension for the marked library.",
   "main": "./index.js",
