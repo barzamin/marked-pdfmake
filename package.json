@@ -1,17 +1,14 @@
 {
   "name": "marked-pdfmake",
-  "version": "0.1.0",
-  "description": "A PDF renderer extension for the marked library.",
+  "version": "0.1.0-alpha",
+  "description": "Converts markdown to PDF using marked and pdfmake.",
   "main": "./index.js",
   "scripts": {
     "dev-browser": "webpack-dev-server --env.NODE_ENV=web --config=browser.webpack.config.js --open",
     "build-browser": "webpack --env.NODE_ENV=web --config=browser.webpack.config.js",
     "test": "nyc mocha test/**.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/drewlab/marked-pdfmake.git"
-  },
+  "repository": "github:drewletcher/marked-pdfmake",
   "author": "Drew O. Letcher",
   "license": "MIT",
   "bugs": {
